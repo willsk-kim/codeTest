@@ -43,7 +43,7 @@ public class BS02 {
 //                v1 = A[left];
 //                v2 = A[res - 1];
 //            }
-//            if(res <= N && Math.abs(A[left] + A[res]) < bestSum){
+//            if(res <= N å&& Math.abs(A[left] + A[res]) < bestSum){
 //                bestSum = Math.abs(A[left] + A[res]);
 //                v1 = A[left];
 //                v2 = A[res];

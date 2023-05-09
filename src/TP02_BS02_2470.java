@@ -2,7 +2,7 @@ import java.util.Arrays;
 import java.util.Scanner;
 
 /*
-
+ 용액 합치기.
  */
 public class TP02_BS02_2470 {
 

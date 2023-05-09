@@ -4,7 +4,7 @@ import java.util.Scanner;
 /*
 좋다. boj 1253
  */
-public class TP03_1253 {
+public class TP04_1253 {
 
     static int N;
     static int[] A;

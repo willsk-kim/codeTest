@@ -4,7 +4,7 @@ import java.util.Scanner;
 /*
 공유기 설치
  */
-public class BS05_wl_hub {
+public class BS05_2110 {
     static int N , C;
     static int[] A;
 

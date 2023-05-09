@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class NM7 {
+public class NM07 {
 
     static int N, S, ans;
     static int[] nums;

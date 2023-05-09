@@ -1,12 +1,11 @@
 import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.Collections;
 import java.util.Scanner;
 
 /*
 화살표 그리기
  */
-public class Sort04 {
+public class Sort04_15970 {
 
     static int N;
     static ArrayList<Integer>[] a;

@@ -1,11 +1,12 @@
 /*
 
 N개중 M개 선택, 중복 선택 가능 by Will
+Boj 15651
 
  */
 import java.util.Scanner;
 
-public class NM1 {
+public class NM01_15651 {
 
     static int N,M;
     static int [] selected;

@@ -4,7 +4,7 @@ import java.util.Scanner;
 /*
 수열 정렬
  */
-public class Sort02 {
+public class Sort02_1015 {
 
     static int N;   // 배열의 길이
     static int[] P;  // A에 적용할 배열, P의 원소의 값이 B의 인덱스

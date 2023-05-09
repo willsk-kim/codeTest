@@ -1,11 +1,10 @@
-import java.util.Scanner;
 /*
-
-N 개중 M개 선택, 중복 선택 불가능 by Will
 
  */
 
-public class NM2 {
+import java.util.Scanner;
+
+public class NM03 {
 
     static int N, M;
     static int[] selected, used;
@@ -30,12 +29,13 @@ public class NM2 {
             }
             sb.append('\n');
         } else {
-            for (int sel = 1; sel <= N; sel++) {
-                if (used[sel] == 1) continue;
-
-                selected[k] = sel;   used[sel] = 1;
+            int start = selected[k -1];
+            if (start ==0) start = 1;
+            for (int sel = start; sel <= N; sel++) {
+                selected[k] = sel;
                 recurCalc(k + 1);
-                selected[k] = 0;     used[sel] = 0;
+                selected[k] = 0;
+
             }
         }
     }

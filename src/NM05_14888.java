@@ -4,8 +4,9 @@ import java.util.Scanner;
 
 /*
  연산자 끼워 넣기
+ Boj 14888
  */
-public class NM5 {
+public class NM05_14888 {
 
     static int N , max, min; // N 개의 숫자
     static int[] nums, operators; // 연산자는 N-1 개

@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 부분 합.
  */
-public class TP01 {
+public class TP01_1806 {
 
     static int N, S;
     static int[] A;

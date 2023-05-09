@@ -4,7 +4,7 @@ import java.util.Scanner;
 /*
 
  */
-public class TP02_BS02 {
+public class TP02_BS02_2470 {
 
     static int N;
     static int[] A;

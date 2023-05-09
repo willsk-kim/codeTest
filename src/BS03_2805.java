@@ -3,7 +3,7 @@ import java.util.Scanner;
 /*
  나무 자르기
  */
-public class BS03_tree {
+public class BS03_2805 {
 
     static int N ; // N :나무 수 = 1 <= N <= 1,000,000, H: 나무 길이 = 1 <= M <= 2,000,000,000
     static int M;  // 잘린 나무 길이

@@ -1,6 +1,11 @@
 import java.util.Scanner;
+/*
 
-public class NM3 {
+N 개중 M개 선택, 중복 선택 불가능 by Will
+Boj 15649
+ */
+
+public class NM02_15649 {
 
     static int N, M;
     static int[] selected, used;
@@ -25,13 +30,12 @@ public class NM3 {
             }
             sb.append('\n');
         } else {
-            int start = selected[k -1];
-            if (start ==0) start = 1;
-            for (int sel = start; sel <= N; sel++) {
-                selected[k] = sel;
-                recurCalc(k + 1);
-                selected[k] = 0;
+            for (int sel = 1; sel <= N; sel++) {
+                if (used[sel] == 1) continue;
 
+                selected[k] = sel;   used[sel] = 1;
+                recurCalc(k + 1);
+                selected[k] = 0;     used[sel] = 0;
             }
         }
     }

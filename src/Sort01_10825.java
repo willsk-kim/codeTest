@@ -4,7 +4,7 @@ import java.util.Scanner;
 /*
   primitive vs Object
  */
-public class Sort01{
+public class Sort01_10825 {
 
 
     static class Elem implements Comparable<Elem>{

@@ -3,7 +3,7 @@ import java.util.Scanner;
 /*
  BS cutting lanCable
  */
-public class BS04_lanCable {
+public class BS04_1654 {
     static int K , N;
     static int[] A;
 

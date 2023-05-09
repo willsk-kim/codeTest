@@ -1,6 +1,9 @@
+/*
+
+ */
 import java.util.Scanner;
 
-public class NM4 {
+public class NM04 {
 
     static int N, M;
     static int[] selected, used;

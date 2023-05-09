@@ -4,7 +4,7 @@ import java.util.Scanner;
 /*
  이분 탐색 2 - 두 용액 합치기
  */
-public class BS02 {
+public class BS02_2470 {
 
     static int N;
     static int[] A;

@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class NM6 {
+public class NM06 {
 
     static int N, ans;
     static int[] cols;

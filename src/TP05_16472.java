@@ -47,4 +47,9 @@ public class TP05_16472 {
         System.out.println(ans);
     }
 
+    public static void main(String[] args){
+        input();
+        proCalc();
+    }
+
 }

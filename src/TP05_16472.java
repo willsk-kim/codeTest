@@ -14,7 +14,7 @@ public class TP05_16472 {
 
     static void input() {
         N = sc.nextInt();
-        A = sc.nextLine(); // 1 <= len(A) <= 100,000
+        A = sc.next(); // 1 <= len(A) <= 100,000
         cnt = new int[26];
     }
 

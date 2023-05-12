@@ -18,7 +18,6 @@ public class GP05_2178 {
 
     static int[][] dist;
     static boolean[][] visit ;
-    static ArrayList<Integer> group;
 
     static void input(){
         N = sc.nextInt();

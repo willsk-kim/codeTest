@@ -23,7 +23,8 @@ public class TS01_2252 {
         for(int i = 1;i <= N; i++) adj[i]= new ArrayList<>();
         for(int i = 0;i < M ; i ++){
             int x = sc.nextInt(), y = sc.nextInt();
-            adj[x].add(y);
+            adj[x].add(y); // 단반향
+//            adj[y].add(x);
             // x-> y : 두 학생의 키 비교를 간선으로 표시
             indeg[y]++;
         }
